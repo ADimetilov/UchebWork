@@ -41,6 +41,7 @@
             <Legengd> Добавление марки автомобиля </Legengd>
                 <form action="add_mark.php" method="post">
                     <p><input name="Name" size="50" type="text"> Название марки<br></p>
+                    <input name="myFile" type="file">Изображение марки<br>
                     <p><input name="add" type="submit" value="Добавить"></p>
                     <input name="b2" type="reset" value="Очистить"></p>
                 </form>
